@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/output.css" rel="stylesheet">
+</head>
+<body class="h-full bg-white">
+
+  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+
+    <!-- Card -->
+    <div class="border-gray-500 shadow-lg rounded-2xl sm:mx-auto sm:w-full sm:max-w-sm pb-3">
+        <!-- Card Head -->
+        <div class="bg-primary-50 px-5 py-5 rounded-t-2xl">
+            <h3 class="text-3xl font-semibold text-primary-500 mb-1 mt-3">Welcome</h3>
+            <h5 class="text-black mb-3">Bangunindo Design System</h5>
+        </div>
+
+    <!-- Card Body -->
+        <div class="p-8 sm:mx-auto sm:w-full sm:max-w-sm">
+            <form class="space-y-6">
+            
+                <input placeholder="Username" id="username" name="username" type="text" required class="block w-full rounded-md border-0 py-1.5 px-3 text-white bg-grey-10 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6">
+                
+                <div>
+                    <input placeholder="Password" id="password" name="password" type="password" required class="block w-full rounded-md border-0 py-1.5 px-3 mb-2 text-white bg-grey-10 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6">
+                    <input type="checkbox" id="remember-me" class="default:ring-2 mt-3">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+            
+                <div>
+                <button type="submit" class="flex w-full justify-center rounded-md bg-primary-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign in</button>
+                <div class="text-sm text-center my-5">
+                    <a href="#" class="font-semibold text-black hover:text-primary-500">Forgot your password?</a>
+                </div>
+                </div>
+            </form>
+            
+            <div class="flex justify-between item-center gap-3">
+                <p class="text-sm">Don't have an account? Create now!</p>
+                <button class="text-sm border border-primary-500 bg-white text-primary-500 px-3 py-1 rounded">Sign Up</button>
+            </div>
+            
+        </div>
+    </div>
+  
+    <!-- Logo -->
+    <div class="flex justify-center mt-5">
+        <img src="../img/brand.svg" alt="logo" class="">
+    </div>
+
+  </div>
+</body>
+</html>
